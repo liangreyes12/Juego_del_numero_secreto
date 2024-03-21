@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE DE DATOS</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Datos.css">
+    <link rel="icon" type="image/png" href="../IMG/Logo.png">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">NORLIAJEFF</a>
+        <ul class="navigation">
+            <li><a href="index.html" target="_blank">INICIO</a></li>
+            <li><a href="Formulario.html" target="_blank">LOGIN</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>INVENTARIO</h2>
+                <form>
+                    <input type="text" name="Nombre" placeholder="Ingrese Producto" required>
+                    <input type="text" name="Codigo" placeholder="Ingrese Codigo" required>
+                    <input type="number" name="Precio" placeholder="Ingrese Precio" required>
+                    <input type="text" name="Marca" placeholder="Ingrese Marca" required>
+                    <input type="number" name="Cantidad" placeholder="Ingrese Cantidad" required>
+                    <input type="submit" value="REGISTRAR">
+                </form>
+
+                <h2>VENTAS</h2>
+                <form>
+                    <input type="text" name="Nombre" placeholder="Ingrese Nombre Del Cliente" required>
+                    <input type="text" name="Documento" placeholder="Ingrese Documento De Identidad" required>
+                    <input type="number" name="Numero" placeholder="Ingrese Numero" required>
+                    <input type="date" name="Fecha" placeholder="Ingrese Fecha" required>
+                    <input type="submit" value="REGISTRAR">
+                </form>
+
+                <h2>PROVEEDORES</h2>
+                <form>
+                    <input type="text" name="Nombre" placeholder="Ingrese Nombre" required>
+                    <input type="text" name="Codigo" placeholder="Ingrese Codigo" required>
+                    <input type="text" name="Direccion" placeholder="Ingrese Direccion" required>
+                    <input type="text" name="Que_provee" placeholder="Ingrese Espcialidad" required>
+                    <input type="submit" value="REGISTRAR">
+                </form>
+            </article>
+        </section>
+    </main>
+
+
+    <div class="footer">
+		<div class="inner-footer">
+
+			<div class="footer-items">
+				<h1>CONTRATACIÓN</h1>
+				<p>
+					Contratación y demás información por favor comunicarse con nuestras operadoras
+				</p>
+			</div>
+
+			<div class="footer-items">
+				<h2>SERVICIOS</h2>
+				<div class="border"></div>
+				<ul>
+					<a href="#"><li>Servicios</li></a>
+					<a href="#"><li>Contratación</li></a>
+					<a href="#"><li>Planes</li></a>
+				</ul>
+			</div>
+
+			<div class="footer-items">
+				<h2>CONTACTANOS</h2>
+				<div class="border"></div>
+				<ul>
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>Cucuta - Norte De Santander</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+57 3505430000</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i>NORLIAJEFF@gmail.com</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="footer-bottom">
+			<p>
+                &copy;Derechos Reservados/Liang Reyes.
+            </p> 
+		</div>
+	</div>
+</body>
+</html>
